@@ -1388,3 +1388,25 @@ background-position: -24px -53px;
   font-weight: 700;
 }
 /*Grafic end*/
+/*Calendar*/
+
+
+#calendar_body .modal{
+  overflow: scroll !important;
+}
+.event_text_div{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.event_text_div input {
+  width: 100%;
+}
+.calendar_modal h4{
+  color: #fff;
+}
+
+/*Calendar end*/

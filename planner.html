@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Ameryah Henderson</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+          integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/font-awesome.css">
+    <link rel="stylesheet" href="libs/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="main_dash_body" id="calendar_body" >
+<div id="mySidenav" class="sidenav">
+  <div class="flex">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+    <h4 class="underline">Class name</h4>
+    <div class="right_list">
+      <div class="right_menu_list"><img src="img/dashlogo.png"><a href="#">Dashboard</a></div>
+      <div class="right_menu_list"><img src="img/dashlogo2.png"><a href="#">Students</a></div>
+      <div class="right_menu_list"><img src="img/dashlogo4.png"><a href="planner.html">Planner</a></div>
+      <div class="right_menu_list"><img src="img/dashlogo3.png"><a href="#">Statistics</a></div>
+    </div>
+  </div>
+  
+</div>
+<nav class="navbar  navbar-expand-lg navbar-light bg-light">
+        <a href="dashboard _classrooms.html"><span class="dash_open">&#x2190; Classrooms</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse dashboardnavbar navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <div class="dropdown link">
+                      <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Teacher Name
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <div class="notification">
+                    <img src="img/not.png">
+                  <div class="red_circle"><span>2</span></div>
+                    
+                  </div>
+                  
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+<!-- Calendar -->
+<div id='wrap'>
+
+<div id='calendar'></div>
+
+<div style='clear:both'></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="footer_size">
+    <div class="footer_1">
+      <img src="img/logo.png" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="footer_2">
+      <p class="footer_cotact">Contact us</p>
+      <div class="footer_box">
+        <img src="img/home_icon_1.png" alt="">
+        <p>Lorem Ipsum</p>
+      </div>
+      <div class="footer_box">
+        <img src="img/home_icon_2.png" alt="">
+        <p>Lorem Ipsum</p>
+      </div>
+      <div class="footer_box">
+        <img src="img/home_icon_3.png" alt="">
+        <p>+0123456789789965</p>
+      </div>
+    </div>
+    <div class="footer_3">
+      <p class="footer_cotact">Follow Us</p>
+        <div class="footer_soc">
+          <img src="img/facebook.png" alt="">
+          <img src="img/twitter.png" alt="">
+          <img src="img/instagram.png" alt="">
+        </div>
+    </div>
+  </div>
+  <div class="lawyers_bottom">
+    <p>Copyright 2019 | All rights reserved | Privacy Policy | Terms</p>
+  </div>
+</footer>
+<!-- modal -->
+<div class="modal fade calendar_modal" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" onClick=>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Create event</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3 event_text_div">
+        <label>Event text</label>
+        <input type="text" name="EventText" id="Event_text" >
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique" id="event_create" type="button" >Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade calendar_modal" id="modalContactForm1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true" onClick=>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Delete event</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique" type="button" data-dismiss="modal" aria-label="Close">Close <i class="fas fa-paper-plane-o ml-1"></i></button>
+        <button class="btn btn-danger" id="event_remove" type="button" >Delete <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="libs/js/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
+<script src="libs/js/popper.min.js"></script>
+<script src="libs/js/bootstrap.min.js"></script>
+<script src="libs/js/owl.carousel.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/Calendar.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+
+</body>
+</html>
